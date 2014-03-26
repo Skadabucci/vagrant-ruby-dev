@@ -32,6 +32,7 @@ Get ruby by **running these commands**
 ```bash
 sudo rvm install 2.0.0
 sudo rvm use 2.0.0 --default
+sudo rvm alias create default 2.0.0
 ```
 Finishing touches get some extras, **run these:**
 ```bash
