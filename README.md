@@ -37,6 +37,7 @@ sudo rvm alias create default 2.0.0
 Finishing touches get some extras, **run these:**
 ```bash
 sudo gem install bundler
+sudo apt-get install memcached
 ```
 
 ##What's next?
@@ -47,4 +48,8 @@ cd /home/vagrant
 git clone <Your GitHub Project>
 cd <Your GitHub Project>
 sudo bundle install
+```
+Then run rails with this:
+```bash
+sudo rails s
 ```
