@@ -3,6 +3,8 @@ vagrant-ruby-dev
 Vagrant  precise64 box with Ruby 2.0.0, RVM, and Rails 4.0.0
 This file will hold your hand through setting up a development environment for developing a ruby on rails project.
 
+##NOTE: These setup instructions have been automated in the provision script
+
 Open shell and **navigate to your VirtualBox directory and run:**
 ```bash
 git clone https://github.com/Boomerkuwanger/vagrant-ruby-dev.git
