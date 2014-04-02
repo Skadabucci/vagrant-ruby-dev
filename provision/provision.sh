@@ -22,3 +22,5 @@ rvm alias create default 2.0.0;
 gem install bundler;
 gem install rails;
 apt-get install -y memcached;
+
+chown -R vagrant:vagrant /usr/local/rvm;
